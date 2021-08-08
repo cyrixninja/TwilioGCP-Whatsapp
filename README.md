@@ -37,10 +37,10 @@ chmod +x ngrok
 # Step 7 Copy the Ngrok URL and Paste it in your twilio console whatsapp sandbox
 https://www.twilio.com/console/sms/whatsapp/sandbox
 ![image](https://user-images.githubusercontent.com/61012869/128624742-4ef078af-5ff3-4342-a467-a8cf8f95d273.png)
-Add /bot at the end after pasting the url in twilio console and Save it
-Now you're ready to go
 
-# Congratulations
+Add /bot at the end after pasting the url in twilio console and Save it.
+
+# Congratulations,Now you're ready to go
 
 
 
