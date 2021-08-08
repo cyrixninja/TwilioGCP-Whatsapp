@@ -39,7 +39,8 @@ def bot():
         name=(instancetxt[1])
         zone=(instancetxt[2])
         command=("gcloud compute instances create"+" "+ name+" "+"--zone"+" "+zone)
-        msg.body(command)
+        text=("Creating an VM instance Named"+"  "+name+"  "+"in the zone"+"  "+zone)
+        msg.body(text)
         os.system(command)
         return str(resp)
     if 'createcluster' in incoming_msg:
@@ -48,12 +49,14 @@ def bot():
         nodes=(clustertxt[2])
         zone=(clustertxt[3])
         command=("gcloud container clusters create"+" "+name+" "+"--num-nodes="+nodes+"  "+"--zone"+" "+zone)
-        msg.body(command)
+        text=("Creating an GKE Cluster Named"+"  "+name+"  "+"in the zone"+"  "+zone)
+        msg.body(text)
         os.system(command)    
         return str(resp)
     if 'gcloud' in incoming_msg:
         command=incoming_msg
-        msg.body(command)
+        text=("Running the Command in Google Cloud Shell:"+"  "+command)
+        msg.body(text)
         os.system(command)
         return str(resp)
     
