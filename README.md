@@ -2,4 +2,4 @@
 App to Control Google Cloud Platform Using Whatsapp
 # Create an Twilio and Google Cloud Account to Try it
 # Step 1 Create an VM Instance in Google Cloud Compute Engine
-![Step1Img](/image/7.png)
+![Step1Img](https://github.com/cyrixninja/TwilioGCP-Whatsapp/blob/main/Image/7.png?raw=true)
